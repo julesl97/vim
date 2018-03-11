@@ -16,10 +16,10 @@ set number
 "set background=dark
 "colorscheme solarized
 
-" Get rid of TAB
 set tabstop=2
 set shiftwidth=2
-set expandtab
+" tabs a cool
+"set expandtab
 set cursorline
 set cursorcolumn
 filetype plugin indent on
@@ -27,10 +27,10 @@ filetype plugin indent on
 syntax on
 set smartindent
 "set background=dark
-set showcmd
-set ruler
-set backspace=indent,eol,start
-set shiftround
+"set showcmd
+"set ruler
+"set backspace=indent,eol,start
+"set shiftround
 let g:user_emmet_leader_key='<C-e>'
 hi CursorColumn  ctermbg=Black
 hi CursorLine cterm=NONE  ctermbg=Black
