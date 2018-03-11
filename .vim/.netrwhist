@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/export/home/an15/jicquelv/mastermind7'
+let g:netrw_dirhist_2='/export/home/an15/jicquelv/mastermind10'
+let g:netrw_dirhist_3='/export/home/an15/jicquelv/ASR'
+let g:netrw_dirhist_4='/export/home/an15/jicquelv/ASR/Tp21'
