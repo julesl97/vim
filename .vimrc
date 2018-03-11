@@ -34,3 +34,9 @@ set smartindent
 let g:user_emmet_leader_key='<C-e>'
 hi CursorColumn  ctermbg=Black
 hi CursorLine cterm=NONE  ctermbg=Black
+
+" For local replace
+nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
+
+" For global replace
+nnoremap gR gD:%s/<C-R>///gc<left><left><left>
