@@ -7,6 +7,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'othree/html5.vim'
+Plugin 'WolfgangMehner/c-support'
 
 source ~/.vim/cscope_maps.vim
 
