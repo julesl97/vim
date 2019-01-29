@@ -9,6 +9,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'othree/html5.vim'
 Plugin 'WolfgangMehner/c-support'
 Plugin 'tmhedberg/SimpylFold'
+Plugin 'vim-scripts/indentpython.vim'
+
 
 source ~/.vim/cscope_maps.vim
 
