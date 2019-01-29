@@ -48,3 +48,13 @@ nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
 
 " For global replace
 nnoremap gR gD:%s/<C-R>///gc<left><left><left>
+
+" PYTHON======================================
+au BufNewFile,BufRead *.py, *.python
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
