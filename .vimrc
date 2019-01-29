@@ -8,6 +8,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'othree/html5.vim'
 Plugin 'WolfgangMehner/c-support'
+Plugin 'tmhedberg/SimpylFold'
 
 source ~/.vim/cscope_maps.vim
 
@@ -35,6 +36,12 @@ set smartindent
 let g:user_emmet_leader_key='<C-e>'
 hi CursorColumn  ctermbg=Black
 hi CursorLine cterm=NONE  ctermbg=Black
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+" Enable folding with the spacebar
+nnoremap <space> za
 
 " For local replace
 nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
