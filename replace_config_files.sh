@@ -22,7 +22,8 @@ if [ -f ~/.vimrc ]; then
     done
 fi
 
-cp .vim* ~/
+cd $DIR
+cp -r .vim* ~/
 
 echo "Installation completed"
 
